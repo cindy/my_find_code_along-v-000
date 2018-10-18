@@ -11,7 +11,7 @@ def my_find(collection)
       i += 1
     end
   else
-    finds << yield
+    finds << yield(collection[0])
   end
   finds
 end
